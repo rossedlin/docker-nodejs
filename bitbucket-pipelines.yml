@@ -1,3 +1,6 @@
+options:
+  docker: true
+
 pipelines:
   default:
 
