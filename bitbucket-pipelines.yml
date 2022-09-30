@@ -9,5 +9,5 @@ pipelines:
         name: 'Build / Push Docker Image'
         script:
           - docker login -u $DOCKER_HUB_USER -p $DOCKER_HUB_PASSWORD
-          - docker build -t rossedlin/nodejs:14 .
-          - docker push rossedlin/nodejs:14
+          - docker build -t rossedlin/nodejs:16 .
+          - docker push rossedlin/nodejs:16

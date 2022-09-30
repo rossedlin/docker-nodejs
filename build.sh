@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build -t rossedlin/nodejs:14 .
+docker build -t rossedlin/nodejs:16 .
