@@ -5,12 +5,5 @@ services:
      image: rossedlin/nodejs:16
      ports:
        - "3000:3000"
-     user: "node"
-     expose:
-       - "3000"
-     working_dir: /home/node/app
-     environment:
-       - NODE_ENV=production
-     command: "yarn start"
      volumes:
        - ./:/home/node/app
