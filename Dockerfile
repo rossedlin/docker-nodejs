@@ -18,6 +18,11 @@ RUN apt-get update; \
 EXPOSE 3000
 
 #
+# Add files
+#
+ADD ./ /home/node/app
+
+#
 # Finish
 #
 WORKDIR /home/node/app
